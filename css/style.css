@@ -6,12 +6,12 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
 .logo-link {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -20,7 +20,7 @@ h1, h2, h3 {
   color: #4d5ae5;
 }
 
-.logo-span {
+.logo_span {
   color: #2e2f42;
 }
 
@@ -70,7 +70,6 @@ header {
   cursor: default;
 }
 
-/* Hero Section */
 .hero-section {
   background: #2e2f42;
   color: #fff;
@@ -89,9 +88,9 @@ header {
   background: #4d5ae5;
   color: #fff;
   border: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -99,10 +98,11 @@ header {
 
 .button-primary:hover,
 .button-primary:focus {
-  background-color: #404BBF;
+  background-color: #404BBF; 
 }
 
-/* Features Section */
+/* --- СТИЛИ ДЛЯ ТРЕТЬЕЙ СЕКЦИИ --- */
+
 .features-section {
   background-color: #F4F4FD;
   padding: 120px 0;
@@ -149,107 +149,45 @@ header {
   margin: 0;
 }
 
-/* Portfolio Section */
-.portfolio-section {
-  background-color: #fff;
-  padding: 120px 0;
-}
 
-.portfolio-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #2e2f42;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 72px;
-  line-height: 1.11;
-}
+/* --- КОНЕЦ СТИЛЕЙ ДЛЯ ТРЕТЬЕЙ СЕКЦИИ --- */
 
-.portfolio-list {
-  margin: 0;
-  padding: 0;
-}
-
-.portfolio-item {
-  background-color: #fff;
-  margin-bottom: 24px;
-}
-
-.portfolio-subtitle {
+.feature-title,
+.portfolio-subtitle,
+.team-member h3 {
   font-weight: 500;
+  color: #2e2f42;
+  margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
 }
 
-.portfolio-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin: 0;
-}
-
-/* Team Section */
-.team-section {
-  background-color: #fff;
-  padding: 120px 0;
-}
-
-.team-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #2e2f42;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 72px;
-  line-height: 1.11;
-}
-
-.team-list {
-  margin: 0;
-  padding: 0;
-}
-
-.team-member {
-  background-color: #fff;
-  margin-bottom: 24px;
-}
-
-.team-member-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.team-member-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin: 0;
-}
-
-/* Footer */
-.footer-link {
-  font-size: 24px;
-  font-weight: 700;
-  color: #4d5ae5;
-}
-
+.feature-text,
+.feature-item p,
+.portfolio-description,
+.team-member p,
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
+}
+
+.team-title,
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2e2f42;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.footer-link {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4d5ae5;
 }
 
 address {
@@ -277,3 +215,4 @@ address {
   pointer-events: none; 
   cursor: default;
 }
+
