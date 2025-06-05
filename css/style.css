@@ -238,49 +238,42 @@ header {
 }
 
 /* Footer */
-:root {
-  --footer-bg: #2e2f42;
-  --footer-logo-span: #f4f4fd;
-  --footer-text: #f4f4fd;
-}
-
-.footer-section {
-  background-color: var(--footer-bg);
-  padding: 100px 0; /* по макету может быть 80px, смотри в фигме */
-}
-
-.footer-container {
-  max-width: 1158px; /* или то, что в макете */
-  margin: 0 auto;
-  padding-left: 15px; /* или другой отступ по макету */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* по левому краю */
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
+.footer-link {
+  font-size: 24px;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
-  margin-bottom: 16px;
-  display: inline-block;
-}
-
-.footer-logo-span {
-  color: var(--footer-logo-span);
 }
 
 .footer-text {
-  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-text);
+  color: #434455;
   margin: 0;
 }
 
+address {
+  font-style: normal;
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.nav-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  pointer-events: none; 
+  cursor: default;
+}
