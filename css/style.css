@@ -103,12 +103,12 @@ header {
 }
 
 /* Features Section */
-.advantages-section {
-  background-color: #f4f4fd;
+.features-section {
+  background-color: #F4F4FD;
   padding: 120px 0;
 }
 
-.section-title {
+.features-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -116,24 +116,23 @@ header {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  font-weight: 700;
 }
 
-.advantages-list {
-  display: flex;
-  gap: 24px;
+.features-list {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-.advantages-item {
-  background-color: #ffffff;
+.features-item {
+  background-color: #FFFFFF;
+  margin-bottom: 24px;
   padding: 24px;
-  border-radius: 8px;
-  width: calc((100% - 72px) / 4);
+  border: none;
 }
 
-.item-title {
+.features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -142,7 +141,7 @@ header {
   margin-bottom: 8px;
 }
 
-.item-text {
+.features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
