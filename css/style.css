@@ -24,7 +24,7 @@ h1, h2, h3 {
   color: #2e2f42;
 }
 
-.nav_link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -33,8 +33,8 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
-.nav_link:hover,
-.nav_link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -53,11 +53,6 @@ header {
   background: #fff;
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 32px;
-}
-
-.nav-link {
-  font-weight: 500;
-  color: #2e2f42;
 }
 
 .nav-list li:first-child .nav-link {
@@ -164,4 +159,4 @@ address {
   color: #2e2f42;
   pointer-events: none; 
   cursor: default;
-} 
+}
